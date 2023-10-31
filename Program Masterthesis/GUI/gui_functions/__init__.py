@@ -1,0 +1,1 @@
+from .sloreta_gui import sloreta
