@@ -209,9 +209,9 @@ def VisualizeHyperParams(F_vals, num_dips_hp, alpha_hp, wp_type, save = False,
     ax.set_xlabel(r'$\mathtt{num\_dipoles\_per\_section}$')
     ax.set_zlabel('error functional F', rotation=90)
     ax.set_facecolor('white')
-    ax.w_xaxis.pane.fill = False
-    ax.w_yaxis.pane.fill = False
-    ax.w_zaxis.pane.fill = False
+    #ax.w_xaxis.pane.fill = False
+    #ax.w_yaxis.pane.fill = False
+    #ax.w_zaxis.pane.fill = False
     ax.set_yticks([0.005, 0.01, 0.05, 0.1, 0.2, 0.35, 0.5],
                   ['', '0.01', '', '0.1', '0.2', '0.35', '0.5'])
     ax.set_xticks([1,2,3,4,5], ['1','2','3','4','5'])
